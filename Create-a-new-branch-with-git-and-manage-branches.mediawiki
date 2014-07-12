@@ -43,11 +43,11 @@ Then you need to apply to merge changes, if your branch is derivated from develo
 
 <pre>$ git merge <name_of_your_remote>/develop</pre>
 
-Delete a branch on your local filesytem :
+Delete a branch on your local filesystem :
 
 <pre>$ git branch -d <name_of_your_new_branch></pre>
 
-To force the deletion of local branch on your filessytem : 
+To force the deletion of local branch on your filesystem : 
 
 <pre>$ git branch -D <name_of_your_new_branch></pre>
 
