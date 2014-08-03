@@ -23,7 +23,7 @@ When starting the descriptions part of the title it is important to use a verb b
 * Delete [old_item{subject}] from [reference_item{subject}]...
 * Remove [old_item{subject}] from [reference_item{subject}]...
 
-####Terminology
+#### _Terminology_
 * new_item - Item that is currently being added because it does not exist (e.g. Less Compiler, UglifyJS, Clean-CSS, ect.)
 * reference_item - Item that thing is currently being referenced and change from something to something that exists (e.g Build Script, Crypsis Template, ect.)
 * old_item = Item that is currently being removed because it does exist (e.g. Less Compiler, UglifyJS, Clean-CSS, ect.)
