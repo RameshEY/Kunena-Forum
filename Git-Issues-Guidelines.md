@@ -9,7 +9,7 @@ This is a guideline on how to make, process, and describe issues.
 
 #### Title Description
 
-When starting descriptions part of the title it is important to use a verb based on the type of issue it is going to be:
+When starting the descriptions part of the title it is important to use a verb based on the type of action issue it is going to convey:
 
 **New Stuff**
 * Add [new_item{subject}] to [current_item{subject}]...
