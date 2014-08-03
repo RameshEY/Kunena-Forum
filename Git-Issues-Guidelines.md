@@ -5,7 +5,7 @@ This is a guideline on how to make, process, and describe issues.
 #### Title Prefix
 [branch_name"{prefix}-{name}-*"][version"{major}.{minor}.{revision}"]: {title description}
 
-[feature-hmvc][3.1.0.95]: This issue is an issue, did we do recursion?
+[feature-hmvc][3.1.0]: This issue is an issue, did we do recursion?
 
 #### Title Description
 
