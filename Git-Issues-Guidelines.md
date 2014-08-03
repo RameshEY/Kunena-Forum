@@ -1,9 +1,25 @@
 This is a guideline on how to make, process, and describe issues.
 
 ##Issue Format
-[branch_name"\<prefix\>-\<name\>-*"][version"\<major\>.\<minor\>.\<revision\>"]: description
+### Prefix Style
+[branch_name"{prefix}-{name}-*"][version"{major}.{minor}.{revision}"]: description
 
 [feature-hmvc][3.1.0.95]: This issue is an issue, did we do recursion?
+
+### Description Style
+
+When starting descriptions part of the title it is important to use a verb based on the type of issue it is going to be:
+**New Stuff**
+* Add [new_item{subject}] to [current_item{subject}]...
+* Insert Add [new_item{subject}] into [current_item{subject}]...
+
+**Current Suff**
+* Update to [new_item{subject}] from [current_item{subject}]...
+* Change to [new_item{subject}] from [current_item{subject}]...
+
+**Remove Stuff**
+* Delete [new_item{subject}] from [current_item{subject}]...
+* Remove [new_item{subject}] from [current_item{subject}]...
 
 ##Label Color Guideline
 * All labels that are directly RELATED to Kunena and/or have an ACCEPTED status related to the definition of the label. The label will define a specific color of the normal color spectrum (red, orange, yellow, green, blue, purple) excluding tones of black and white.
