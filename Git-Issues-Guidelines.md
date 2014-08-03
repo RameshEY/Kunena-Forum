@@ -1,12 +1,13 @@
 This is a guideline on how to make, process, and describe issues.
 
 ##Issue Format
-### Prefix Style
+###Title Format
+#### Title Prefix
 [branch_name"{prefix}-{name}-*"][version"{major}.{minor}.{revision}"]: description
 
 [feature-hmvc][3.1.0.95]: This issue is an issue, did we do recursion?
 
-### Description Style
+#### Title Description
 
 When starting descriptions part of the title it is important to use a verb based on the type of issue it is going to be:
 **New Stuff**
