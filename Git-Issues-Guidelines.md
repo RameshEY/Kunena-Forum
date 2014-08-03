@@ -1,7 +1,7 @@
 This is a guideline on how to make, process, and describe issues.
 
 ##Issue Format
-[branch_name"\<prefix\>-\<name\>-*"][version"\<major\>.\<minor\>.\<revision\>.\<build\>"]: description
+[branch_name"\<prefix\>-\<name\>-*"][version"\<major\>.\<minor\>.\<revision\>"]: description
 
 [feature-hmvc][3.1.0.95]: This issue is an issue, did we do recursion?
 
