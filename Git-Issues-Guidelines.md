@@ -3,7 +3,7 @@ This is a guideline on how to make, process, and describe issues.
 ##Issue Format
 ###Title Format
 #### Title Prefix
-[branch_name"{prefix}-{name}-*"][version"{major}.{minor}.{revision}"]: description
+[branch_name"{prefix}-{name}-*"][version"{major}.{minor}.{revision}"]: {title description}
 
 [feature-hmvc][3.1.0.95]: This issue is an issue, did we do recursion?
 
