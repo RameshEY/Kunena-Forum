@@ -7,7 +7,7 @@ This is a guideline on how to make, process, and describe issues.
 
 [feature-hmvc][3.1.0]: This issue is an issue, did we do recursion?
 
-#### Title Description
+####Title Description
 
 When starting the descriptions part of the title it is important to use a verb based on the type of action issue it is going to convey:
 
@@ -27,6 +27,7 @@ When starting the descriptions part of the title it is important to use a verb b
 * new_item - Item that is currently being added because it does not exist (e.g. Less Compiler, UglifyJS, Clean-CSS, ect.)
 * reference_item - Item that thing is currently being referenced and change from something to something that exists (e.g Build Script, Crypsis Template, ect.)
 * old_item = Item that is currently being removed because it does exist (e.g. Less Compiler, UglifyJS, Clean-CSS, ect.)
+
 ##Label Color Guideline
 * All labels that are directly RELATED to Kunena and/or have an ACCEPTED status related to the definition of the label. The label will define a specific color of the normal color spectrum (red, orange, yellow, green, blue, purple) excluding tones of black and white.
 * All labels that are directly RELATED to Kunena and/or have an PENDING status related to the definition of the label. The label will define a specific color black excluding tones of the normal color spectrum (red, orange, yellow, green, blue, purple) and white.
