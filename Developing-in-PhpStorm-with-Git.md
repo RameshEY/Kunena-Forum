@@ -114,4 +114,4 @@ PhpStorm performs a spellchecking on all our code by default (variables namming.
 
 Sometimes (not very often) it might happen, that the code completion doesn't work. In this case, you can tell to PhpStorm the classname to use by adding a PhpDoc comment.
 
-You can add too the jQuery and Mootols docs to PhpStorm, like that when you edit a javscript file and hover a function which is on Mootools or jQuery framework, PhpStorm will show for you the doc associated. To do that, open Settings dialog (File/Settings) and navigate to “JavaScript Libraries” panel. Add a new library or select an existing one. 
+You can add too the jQuery and Mootols docs to PhpStorm, like that when you edit a javscript file and hover a function which is on Mootools or jQuery framework, PhpStorm will show for you the doc associated. To do that, open Settings dialog (File/Settings) and navigate to “JavaScript Libraries” panel. Add a new library or select an existing one. You can follow too the official doc : http://www.jetbrains.com/phpstorm/webhelp/configuring-javascript-libraries.html
