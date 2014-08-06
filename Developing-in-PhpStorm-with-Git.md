@@ -102,7 +102,7 @@ PhpStorm hasn't support for Ant and there is no plugins to add Ant support, you 
 
 ## Joomla coding standards
 
-You will some docs how to configure your developpement environnement to support CodeSniffer stuffs, but there will be one thing that you will to do in order to use CodeSniffer. 
+You will find some docs how to configure your developpement environnement to support CodeSniffer stuffs, by example you have this one  : http://docs.joomla.org/Joomla_CodeSniffer#PHPStorm_2 
 
 ## Keeping Up Development
 
