@@ -52,6 +52,6 @@ Delete the branch on github :
 
 <pre>$ git push origin :[name_of_your_new_branch]</pre>
 
-The only difference is the : to say delete, you can do it too by using github interface to remove branch : https://help.github.com/articles/deleting-unused-branches.
+The only difference is the : to say delete, you can do it too by unsing github interface to remove branch : https://help.github.com/articles/deleting-unused-branches.
 
 If you want to change default branch, it's so easy with github, in your fork go into Admin and in the drop-down list default branch choose what you want.
