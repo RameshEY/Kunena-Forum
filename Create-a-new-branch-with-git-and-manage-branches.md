@@ -34,8 +34,9 @@ Push changes from your commit into your branch :
 
 Update your branch when the original branch from official repository has been updated : 
 
-<pre>$ git fetch [name_of_your_remote]</pre>
-
+```sh
+$ git fetch [name_of_your_remote]
+```
 Then you need to apply to merge changes, if your branch is derivated from develop you need to do : 
 
 <pre>$ git merge [name_of_your_remote]/develop</pre>
