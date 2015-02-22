@@ -18,6 +18,8 @@ Before you start please make sure you have read our [README](https://github.com/
 
 [[Create a new branch with git and manage branches]]
 
+[[Developing in PhpStorm with Git]]
+
 [[Git Issues Guidelines]]
 
 ## Additional information
