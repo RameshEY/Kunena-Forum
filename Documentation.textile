@@ -1,0 +1,105 @@
+
+Documentation :
+
+File Name : theme_functions_inc.php
+----------------------------------------------------------------------------------
+Note : Create for two separate tab Like : Login , Register
+File Name : theme_functions_inc.php
+Line No : From 415-424
+
+// add the virtual Office menu link if the site has it turned on
+	if ($_SESSION['domain']['agentsite_voc_switch'] == 1) {
+		if ( intval($_SESSION['subscriber']['subscriber_id'])) {
+			$menu[1] = "\n<li class=\"menu_account\" ><a href=\"/profile.html\" title=\"Your Account settings\" target=\"_top\">".$_SESSION['subscriber']['subscriber_first']." ".$_SESSION['subscriber']['subscriber_last']."'s Account</a></li>";
+			$menu[2] = "\n<li class=\"menu_logout\" ><a href=\"/logout.html\" title=\"Logout of your account\" target=\"_top\">Logout</a></li>";
+		}else{
+			$menu[1] = "\n<li class=\"menu_log\" ><a href=\"/login.html\" title=\"login or register with us for updates listings, and personalized service\" target=\"_top\">Login</a></li>";
+		}
+		$menu[3] = "\n<li class=\"menu_registration\" ><a href=\"/registration.html\" title=\"login or register with us for updates listings, and personalized service\" target=\"_top\" id=\"regitserLink\">Register</a></li>";
+	}
+------------------------------------------------------------------------------------
+Note : Due to open popup	
+File Name : theme_functions_inc.php
+Line No. : From 508-555
+script is that :
+<script>
+jQuery('body').on('click','.menu_log',function()
+	{
+		jQuery.ajax(
+		{
+			url: '/login.html',
+			method: 'post',
+			data: '',
+			success: function(response)
+			{
+				var formdata = jQuery(response).find(\".pagebody\").html();
+				if(jQuery('.popupform').length == 0)
+					jQuery('body').append('<div class=\"popupform\" style=\"height:auto;margin-top:-284px;margin-left:-240px;width:546px;!important\"><span class=\"popHead\">Login</span><span class=\"closePopup\">X</span><div class=\"popup_left\" style=\"width:100%!important\"></div><div class=\"popup_right\"></div><div class=\"clearfix\"></div></div><div class=\"bgoverlay\"></div>');
+			
+				jQuery('.popup_left').html(formdata);
+				jQuery('.popup_right').css({'display':'none'});
+			
+				
+			}
+		});
+		return false;
+	});
+		jQuery('body').on('click','.menu_registration',function()
+	{
+		//	Ajax call for loading register form data
+		jQuery.ajax(
+		{
+			url: '/register.html',
+			method: 'post',
+			data: '',
+			success: function(response)
+			{
+				var formdata = jQuery(response).find(\".pagebody\").html();
+				if(jQuery('.popupform').length == 0)
+					jQuery('body').append('<div class=\"popupform\" style=\"height:auto;margin-top:-284px;margin-left:-240px;width:800px;!important\"><span class=\"popHead\">Register</span><span class=\"closePopup\">X</span><div class=\"popup_left\" style=\"width:100%!important\"></div><div class=\"popup_right\"></div><div class=\"clearfix\"></div></div><div class=\"bgoverlay\"></div>');
+				
+				jQuery('.popHead').html('Register');
+				jQuery('.popup_left').html(formdata);
+				
+			
+				
+				jQuery('.popup_right').html(registerForm);
+				
+			}
+		});
+		return false;
+	});
+	
+	</script>
+
+	Note : Also see the login_subscriber() [ Login Popup] , make_registration_form() [ Registration popup] in virtualoffice_functions_inc.php
+---------------------------------------------------------------------------
+
+Client requirements :
+
+1) I am reviewing your work now and will respond soon.
+I did notice that there are extra files including ajax_login.php, ajax_register.php, and edits to the .htaccess file that reference methods that do not exist.
+You will need to clean up behind yourself leaving just documented, working code, pushed to the GitHub branch.
+
+Note : Remove the ajax_login.php, ajax_register.php files and revert your previous .htaccess file.
+
+2) 
+The link to "Already have an account? Login here" from the bottom of the 'Register' pop up form does not link to the "log in"pop up - it links to the page without a pop up. Please correct
+
+Note : Done 
+
+File Name :
+virtualoffice_functions_inc.php
+Line No : 364
+
+
+
+
+3) "Forgot Password?Register" There should be a space between these two links.
+
+This is from the "LOG IN" pop up form
+
+Note : Done
+File Name :
+virtualoffice_functions_inc.php
+Line No : 124
