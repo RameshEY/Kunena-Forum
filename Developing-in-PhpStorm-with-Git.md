@@ -1,16 +1,16 @@
-The PhpStorm environment development can be downloaded here : http://www.jetbrains.com/phpstorm/download/index.html, this is a free 30-day trial. 
+The PhpStorm environment development can be downloaded here: http://www.jetbrains.com/phpstorm/download/index.html, this is a free 30-day trial. 
 
-## Why use PhpStorm ?
+## Why use PhpStorm?
 
-With PhpStorm for Php development you will be able to use Composer dependency manager for PHP, PhpStorm is able to manage namescape and it has a code (Re)arranger to control the structure of your existing and generated code. PhpStorm is able to show you in our the Joomla classes which are deprecated by crossing the text. 
+With PhpStorm for PHP development you will be able to use Composer dependency manager for PHP, PhpStorm is able to manage namespace and it has a code (Re)arranger to control the structure of your existing and generated code. PhpStorm is able to show you in our the Joomla classes which are deprecated by crossing the text. 
 
 ## How to start?
 
-Just import these settings by doing File, Import settings to have an environment correctly configured :
+Just import these settings by doing File, Import settings to have an environment correctly configured:
 
 Open the settings menu by using the icon on the PhpStorm toolbar, there go to Version Control and select Github.com enter here your username and password and click on Test to see if the connexion is working. You can apply the changes.
 
-Then import Joomla-cms and Joomla-platform located in github, by going into VCS → Checkout then do version control → Github, copy the URL of the repository here.
+Then import Joomla-CMS and Joomla-platform located in GitHub, by going into VCS → Checkout then do version control → GitHub, copy the URL of the repository here.
 
 Then import Kunena-forum project or your own fork located in GitHub, by following the same process that above. 
 
@@ -50,7 +50,7 @@ You can add these :
 .Trashes
 ehthumbs.db
 Thumbs.db 
-.idea`
+.idea
 
 ## Create symbolic links between Kunena working directory in PhpStorm and your Joomla! installation
 
