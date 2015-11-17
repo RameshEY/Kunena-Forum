@@ -1,0 +1,1 @@
+Copyright © 2008 - 2016 Kunena, License: GNU GPL 
