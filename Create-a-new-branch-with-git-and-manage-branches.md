@@ -2,7 +2,7 @@ In your github fork, you need to keep your master branch clean, by clean I mean 
 
 When you do a pull request on a branch, you can continue to work on another branch and make another pull request on this other branch.
 
-Before creating a new branch pull the changes from upstream, your master needs to be up to date.
+Before creating a new branch, pull the changes from upstream. Your master needs to be up to date.
 
 Create the branch on your local machine and switch in this branch : 
 
