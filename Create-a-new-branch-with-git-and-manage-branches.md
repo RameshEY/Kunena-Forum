@@ -30,7 +30,7 @@ Add a new remote for your branch :
 
 Push changes from your commit into your branch :
 
-<pre>$ git push origin [name_of_your_remote]</pre>
+<pre>$ git push [name_of_your_new_remote] [name_of_your_branch]</pre>
 
 Update your branch when the original branch from official repository has been updated : 
 
