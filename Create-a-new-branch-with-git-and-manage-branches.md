@@ -10,7 +10,7 @@ Create the branch on your local machine and switch in this branch :
 
 Change working branch : 
 
-<pre>$ git checkout [name_of_your_new_branch]</pre
+<pre>$ git checkout [name_of_your_new_branch]</pre>
 
 Push the branch on github : 
 
